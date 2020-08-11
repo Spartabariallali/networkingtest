@@ -9,3 +9,5 @@ N - tier
 Microservices
 
 
+N - tier - division of system into logical tiers.
+This is implemented through networking which allows system architects the ability to create flexibility for the application as well as security 
