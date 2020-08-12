@@ -165,3 +165,5 @@ G. Subnet associations
 A. create new nacl
 B. tag = Eng67.NAME.P.Route.NACL
 C. add rule
+
+N-tier architecture 
