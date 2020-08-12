@@ -1,5 +1,69 @@
 ### Networking Fundamentals
 
+# What is networking?
+
+A computer network comprises two or more computers that are connected—either by cables (wired) or WiFi (wireless)—with the purpose of transmitting, exchanging, or sharing data and resources. You build a computer network using hardware (e.g., routers, switches, access points, and cables) and software (e.g., operating systems or business applications).
+
+Geographic location often defines a computer network. For example, a LAN (local area network) connects computers in a defined physical space, like an office building, whereas a WAN (wide area network) can connect computers across continents. The internet is the largest example of a WAN, connecting billions of computers worldwide.
+
+You can further define a computer network by the protocols it uses to communicate, the physical arrangement of its components, how it controls traffic, and its purpose.
+
+Computer networks enable communication for every business, entertainment, and research purpose. The internet, online search, email, audio and video sharing, online commerce, live-streaming, and social
+networks all exist because of computer networks.
+
+- **Nodes**: A node is a connection point inside a network that can receive, send, create, or store data. Each node requires you to provide some form of identification to receive access,
+like an IP address. A few examples of nodes include computers, printers, modems, bridges, and switches. A node is essentially any network device that can recognize, process, and transmit information to any other network node.
+- **Routers**: A router is a physical or virtual device that sends information contained in data packets between networks. Routers analyze data within the packets to determine the best way for the information to reach its ultimate destination. Routers forward data packets until they reach their destination node.
+- **Switches**: A switch is a device that connects other devices and manages node-to-node communication within a network, ensuring data packets reach their ultimate destination. While a router
+sends information between networks, a switch sends information between nodes in a single network. When discussing computer networks,
+‘switching’ refers to how data is transferred between devices in a network. The three main types of switching are as follows:
+    - *Circuit switching*, which establishes a dedicated communication path between nodes in a network. This dedicated path assures the full bandwidth is available during the transmission, meaning no other traffic can travel along that path.
+    - *Packet switching* involves breaking down data into independent components called packets which, because of their small size, make fewer demands on the network. The packets travel through the
+    network to their end destination.
+    - *Message switching* sends a message in its entirety from the source node, traveling from switch to switch until it reaches its destination node.
+- **Ports**: A port identifies a specific connection between network devices. Each port is identified by a number. If you think of an IP address as comparable to the address of a hotel, then
+ports are the suites or room numbers within that hotel. Computers use numbers to determine which application, service, or process should
+receive specific messages.
+- **Network cable types**: The most common network cable types are Ethernet twisted pair, coaxial, and fiber optic. The choice of cable type depends on the size of the network, the arrangement of
+network elements, and the physical distance between devices.
+
+### Subnet masks
+
+A single IP address identifies both a network, and a unique interface on that network. A subnet mask can also be written in dotted decimal notation and determines where the network part of an IP address ends, and the host portion of the address begins.
+
+When expressed in binary, any bit set to one means the corresponding bit in the IP address is part of the network address. All the bits set to zero mark the corresponding bits in the IP address as part of the host
+address.
+
+The bits marking the subnet mask must be consecutive ones. Most subnet masks start with 255. and continue on until the network mask ends. A Class C subnet mask would be 255.255.255.0.
+
+# IPv4 vs IPv6
+
+- IPv4 is 32-Bit IP address whereas IPv6 is a 128-Bit IP address.
+- IPv4 is a numeric addressing method whereas IPv6 is an alphanumeric addressing method.
+- IPv4 binary bits are separated by a dot(.) whereas IPv6 binary bits are separated by a colon(:).
+- IPv4 offers 12 header fields whereas IPv6 offers 8 header fields.
+- IPv4 supports broadcast whereas IPv6 doesn’t support broadcast.
+- IPv4 has checksum fields while IPv6 doesn’t have checksum fields
+- IPv4 supports VLSM (Virtual Length Subnet Mask) whereas IPv6 doesn’t support VLSM.
+- IPv4 uses ARP (Address Resolution Protocol) to map to MAC address whereas IPv6 uses NDP (Neighbour Discovery Protocol) to map to MAC address.
+
+## Features of IPv4
+
+- Connectionless Protocol
+- Allow creating a simple virtual communication layer over diversified devices
+- It requires less memory, and ease of remembering addresses
+- Already supported protocol by millions of devices
+- Offers video libraries and conferences
+
+## Features of IPv6
+
+- Hierarchical addressing and routing infrastructure
+- Stateful and Stateless configuration
+- Support for quality of service (QoS)
+- An ideal protocol for neighboring node interaction
+
+## Computer network types
+
 ## creating VPC (Virtual Private Cloud)
 
 N - tier architecture
