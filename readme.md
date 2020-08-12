@@ -66,7 +66,7 @@ A. check route table not assoicated with VPC already
 	- keep for now
 	- rename
 B. Select route tables, create route table
-C. Add tag =Eng67.Max.P.Route.Public
+C. Add tag =Eng67.NAME.P.Route.Public
 D. select your vpc
 E. create vpc
 F. Edit Route - add 0.0.0.0/0
