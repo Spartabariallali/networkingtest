@@ -1,6 +1,6 @@
 ## VPC
 
-![vpcdiagram](imagesmd/vpcdiagram.jpeg)
+![vpcdiagram](imagesmd/vpc diagram.jpeg)
 
 
 - IGW
