@@ -1,4 +1,8 @@
 ## VPC
+
+![vpcdiagram](imagesmd/vpcdiagram.jpeg)
+
+
 - IGW
 - Subnet
 - NACLs
